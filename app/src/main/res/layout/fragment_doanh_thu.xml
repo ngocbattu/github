@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.DoanhThuFragment"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_tu_ngay"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Từ ngày" />
+
+        <EditText
+            android:id="@+id/ed_tu_ngay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+             />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:id="@+id/btn_den_ngay"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Đến ngày" />
+
+        <EditText
+            android:id="@+id/ed_den_ngay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thống kê"
+        android:id="@+id/btn_doanh_thu"
+        android:layout_marginTop="10dp"
+         />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="Doanh Thu"
+        android:id="@+id/tv_doanh_thu"
+        android:layout_marginTop="10dp"
+         />
+
+
+</LinearLayout>

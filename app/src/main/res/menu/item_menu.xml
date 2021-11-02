@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Quản lý phiếu mượn" android:id="@+id/item_phieu_muon" android:icon="@drawable/ic_quan_ly_pm" />
+    <item android:title="Quản lý loại sách " android:id="@+id/item_loai_sach" android:icon="@drawable/ic_ql_ls" />
+    <item  android:title="Quản lý sách " android:id="@+id/item_sach" android:icon="@drawable/ic_sach" />
+    <item android:title="Quản lý thành viên " android:id="@+id/item_thanh_vien" android:icon="@drawable/ic_ql_thanh_vien" />
+    <item android:title="Thống kê">
+        <menu>
+            <item android:title="10 Sách mượn nhiều nhất" android:id="@+id/item_top_sach" android:icon="@drawable/ic_top_sach" />
+            <item android:title="Doanh Thu" android:id="@+id/item_doanh_thu" android:icon="@drawable/ic_money" />
+        </menu>
+    </item>
+    <item android:title="Người dùng ">
+        <menu>
+            <item android:title="Thêm người dùng" android:id="@+id/item_them_ng_dung" android:icon="@drawable/ic_add_user" />
+            <item android:title="Đổi mật khẩu" android:id="@+id/item_doi_mk" android:icon="@drawable/ic_pass" />
+            <item android:title="Đăng xuất" android:id="@+id/item_dang_xuat" android:icon="@drawable/ic_dang_xuat" />
+        </menu>
+    </item>
+</menu>
